@@ -1,0 +1,7 @@
+- hosts: practice-servers
+  gather_facts: False
+  roles:
+  - server
+  - php
+  - mysql
+  - wordpress
